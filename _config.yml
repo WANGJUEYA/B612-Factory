@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: B-612
+subtitle: The little prince
 description: ''
 keywords:
-author: John Doe
+author: 艾茜茜
 language: zh-CN
 timezone: ''
 
@@ -113,14 +113,17 @@ deploy:
   branch: master
 
 # Append
+# hexo-generator-search
 search:
   path: search.xml
   field: post
 
+# hexo-permalink-pinyin
 permalink_pinyin:
   enable: true
   separator: '-' # default: '-'
 
+# hexo-filter-github-emojis
 githubEmojis:
   enable: true
   className: github-emoji
@@ -128,6 +131,7 @@ githubEmojis:
   styles:
   customEmojis:
 
+# hexo-generator-feed
 feed:
   type: atom
   path: atom.xml

@@ -1,5 +1,19 @@
 个人网站生成工厂
 
+## 快捷启动项目
+
+> 需要环境 `git` `npm`
+
+``` bash
+$ git clone git@github.com:WANGJUEYA/B612-Factory.git --recursive
+$ cd B612-Factory.git
+$ npm install
+$ npm run server
+```
+
++ 如果本地ssh密钥不为空会有 `Permission denied`报错, 使用 git-bash 客户端
++ 用自己的markdown文件替换 `./source/_posts` 下所有文件
+
 ## 主题没有在仓库存储, 需要手动拉取
 
 ```bash
@@ -34,3 +48,8 @@ git submodule add git@github.com:WANGJUEYA/hexo-theme-christmas-tree.git ./theme
 git rm -r --cached source/_posts
 git submodule add git@github.com:WANGJUEYA/magic-book.git ./source/_posts
 ```
+
+# 升级计划
+
+1. 分类页展示目录树
+2. 首页标题动态拉取数据库 `subtitle`
