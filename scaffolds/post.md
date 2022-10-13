@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
-excerpt:
+summary:
 date: {{ date }}
 tags:
 ---
