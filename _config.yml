@@ -137,3 +137,8 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# hexo-auto-category
+auto_category:
+  enable: true
+  depth:
