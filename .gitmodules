@@ -1,0 +1,6 @@
+[submodule "themes/christmas-tree"]
+	path = themes/christmas-tree
+	url = git@github.com:WANGJUEYA/hexo-theme-christmas-tree.git
+[submodule "source/_posts"]
+	path = source/_posts
+	url = git@github.com:WANGJUEYA/magic-book.git
