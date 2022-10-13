@@ -1,6 +1,6 @@
 [submodule "source/_posts"]
 	path = source/_posts
-	url = https://github.com/WANGJUEYA/magic-book.git
+	url = git@github.com:WANGJUEYA/magic-book.git
 [submodule "themes/christmas-tree"]
 	path = themes/christmas-tree
-	url = https://github.com/WANGJUEYA/hexo-theme-christmas-tree.git
+	url = git@github.com:WANGJUEYA/hexo-theme-christmas-tree.git
