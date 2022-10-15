@@ -51,5 +51,6 @@ git submodule add git@github.com:WANGJUEYA/magic-book.git ./source/_posts
 
 # 升级计划
 
-1. 分类页展示目录树
-2. 首页标题动态拉取数据库 `subtitle`
++ ~~分类页展示目录树~~
++ 首页标题动态拉取数据库 `subtitle`
++ markdown能替换跳转链接相对路径
