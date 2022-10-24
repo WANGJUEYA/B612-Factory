@@ -17,6 +17,7 @@ jobs:
         run: |
           git config --global user.name "$USER_NAME"
           git config --global user.email "$USER_EMAIL"
+          git submodule update --remote
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v1
