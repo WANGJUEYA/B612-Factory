@@ -54,3 +54,5 @@ git submodule add git@github.com:WANGJUEYA/magic-book.git ./source/_posts
 + ~~分类页展示目录树~~
 + 首页标题动态拉取数据库 `subtitle`
 + markdown能替换跳转链接相对路径
++ 在线文章有编辑按钮, 点击跳转github仓库源对应编辑页面(有权限用户能直接编辑提交)
++ github钩子自动构建(在线编辑之后自动构建)
