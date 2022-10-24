@@ -4,6 +4,12 @@ jobs:
   hexo-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Configure Private Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
       - name: git config
         env:
           USER_NAME: 'wangjueya_ci'
