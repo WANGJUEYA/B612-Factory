@@ -6,7 +6,7 @@
 
 ``` bash
 $ git clone git@github.com:WANGJUEYA/B612-Factory.git --recursive
-$ cd B612-Factory.git
+$ cd B612-Factory
 $ npm install
 $ npm run server
 ```
