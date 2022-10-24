@@ -4,6 +4,13 @@ jobs:
   hexo-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: git config
+        env:
+          USER_NAME: 'wangjueya_ci'
+          USER_EMAIL: '573711282@qq.com'
+        run: |
+          git config --global user.name "$USER_NAME"
+          git config --global user.email "$USER_EMAIL"
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v1
