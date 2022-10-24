@@ -17,7 +17,6 @@ jobs:
         run: |
           git config --global user.name "$USER_NAME"
           git config --global user.email "$USER_EMAIL"
-          git submodule update --remote
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -25,6 +24,8 @@ jobs:
           node-version: 16.x
       - uses: c-hive/gha-yarn-cache@v1
       - name: Yarn install
-        run: yarn install
+        run: ｜
+          git submodule update --remote
+          yarn install
       - name: Hexo deploy
         run: yarn run deploy
