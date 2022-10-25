@@ -24,8 +24,8 @@ jobs:
           node-version: 16.x
       - uses: c-hive/gha-yarn-cache@v1
       - name: Yarn install
-        run: ｜
-          git submodule update --remote
+        run: |
+          git submodule update --init --recursive
           yarn install
       - name: Hexo deploy
         run: yarn run deploy
