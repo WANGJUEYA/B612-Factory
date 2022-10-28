@@ -108,7 +108,7 @@ theme: christmas-tree
 deploy:
   type: git
   repository:
-    github: git@github.com:wangjueya/wangjueya.github.io.git
+    github: git@github.com:WANGJUEYA/WANGJUEYA.github.io.git
     gitee: git@gitee.com:wangjueya/wangjueya.git
   branch: master
 
