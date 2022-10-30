@@ -39,4 +39,6 @@ jobs:
           cd ../../
           yarn install
       - name: Hexo deploy
-        run: yarn run deploy
+        run: |
+          yarn run clean
+          yarn run deploy
