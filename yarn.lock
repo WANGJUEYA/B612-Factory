@@ -705,6 +705,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-asset-img@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-asset-img/-/hexo-asset-img-1.0.0.tgz#8c5b75cae003ba5e06c8fea7af883278f3d45705"
+  integrity sha512-9kzp+LINw15ouVrLvCdSLIKGBVhZ/LAJEvWQfowbyXi0OW2jJaJHkSkWcJ6udO4OEaxLvM1ffK+8IXucMAKawQ==
+
 hexo-auto-category@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/hexo-auto-category/-/hexo-auto-category-0.2.1.tgz#82787cd058aa8c9ba3c51e34e47b6cbbb2f2d38e"
@@ -824,11 +829,6 @@ hexo-i18n@^1.0.0:
   integrity sha512-yw90JHr7ybUHN/QOkpHmlWJj1luVk5/v8CUU5NRA0n4TFp6av8NT7ujZ10GDawgnQEdMHnN5PUfAbNIVGR6axg==
   dependencies:
     sprintf-js "^1.0.3"
-
-hexo-image-link@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hexo-image-link/-/hexo-image-link-0.0.3.tgz#beadcd0a7b44a5fc29b0a3dc55672284f64bbb73"
-  integrity sha512-wyCCLzNnjzZCefo102Zrc3sGJIJSvK5TJTgv0pLEb8GRuHunN1De5h57qpbzVF2id4oQmBSIiugGmslG8U9VsA==
 
 hexo-log@^2.0.0:
   version "2.0.0"
