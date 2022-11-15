@@ -35,7 +35,7 @@ tags:
 
 + [vue](https://cn.vuejs.org/guide/components/slots.html#render-scope)
 + [antdv](https://www.antdv.com/components/select-cn/)
-+ [Vben](https://vvbin.cn/doc-next/guide/settings.html)
++ [Vben](https://doc.vvbin.cn/components/glob/button.html)
 + [vuex](https://vuex.vuejs.org/zh/installation.html)
 + [渲染函数&JSX](https://v2.cn.vuejs.org/v2/guide/render-function.html)
 + [element](https://element.eleme.cn/2.0/#/zh-CN/component/table)
