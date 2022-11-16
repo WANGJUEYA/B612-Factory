@@ -72,6 +72,10 @@ tags:
 
 ## 其他
 
+### ideology
+
++ [my ideology](/ideology)
+
 ### 软考
 
 + [报考指南](https://www.ruankao.org.cn/platform)
