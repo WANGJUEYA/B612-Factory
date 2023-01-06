@@ -844,10 +844,10 @@ hexo-log@^3.0.0, hexo-log@^3.2.0:
   dependencies:
     picocolors "^1.0.0"
 
-hexo-markmap@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/hexo-markmap/-/hexo-markmap-1.1.5.tgz#a75d44ca38fd1f20abbdee0a8d42723250689ada"
-  integrity sha512-24fROESOldLEzmJmgHxIVUADA4HAQmpL9Yv3h9pfK1T23Cr3VzNwrI2VdlPq+QhXxnHTR6kI4WOQuMPhTsbb/w==
+hexo-markmap@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/hexo-markmap/-/hexo-markmap-1.1.6.tgz#145b0da09764d93f0cbd07c43ac6e6b09b916faa"
+  integrity sha512-EDsPwziIaunbHlczN55A7DAimUt7Pgt2mohCk2rboJhoUxQX+smIXL6qsq7d4F13HzjIxQnhq0isSTd+DVBokQ==
   dependencies:
     lodash.get "^4.4.2"
     markmap-common "^0.1.6"
