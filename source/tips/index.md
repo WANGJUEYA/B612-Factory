@@ -113,3 +113,11 @@ cpolar http 80
 ## 高考
 
 + [全国高校学科评估结果](https://www.cdgdc.edu.cn/dslxkpgjggb/index.htm)
+
+## 想开的博客
+
++ 实时进度(一次请求中HTTP实时交互); websocket是不是也能做?
++ MybatisPlus切面; 业务重写平台实体; 应当为`MybatisPlus源码解析`
++ `PreparedStatement` 源码解析
++ `@Transactional` 源码解析
++ 自定义批量更新方法配合代码回滚配置【上面两条注解】
