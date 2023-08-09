@@ -69,3 +69,4 @@ git submodule add git@github.com:WANGJUEYA/ideology.git ./source/ideology
 + 自定义批量更新方法配合代码回滚配置【上面两条注解】
 + websocket底层调用逻辑及`@ServerEndpoint`源码解析
 + spring cloud 网关源码解析(反向代理方式)
++ redis延时队列 redisson
