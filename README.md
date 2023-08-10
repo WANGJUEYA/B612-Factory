@@ -70,3 +70,14 @@ git submodule add git@github.com:WANGJUEYA/ideology.git ./source/ideology
 + websocket底层调用逻辑及`@ServerEndpoint`源码解析
 + spring cloud 网关源码解析(反向代理方式)
 + redis延时队列 redisson
+
+## 想完成的项目
+
+### 像素风开放世界游戏
+
+1. chatGLM生成每个人物性格及天赋
+2. 世界规则为通用 Prompting
+3. 物品生成和转移规则 > 魔法世界加随机性
+4. 世界支持人物之间交互
+5. 主角没有任务线
+6. 3d建模太复杂，后期接入全息场景
