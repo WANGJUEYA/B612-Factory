@@ -59,6 +59,7 @@ git submodule add git@github.com:WANGJUEYA/ideology.git ./source/ideology
 + ~~在线文章有编辑按钮, 点击跳转github仓库源对应编辑页面(有权限用户能直接编辑提交)~~
 + ~~GitHub Action自动构建(子模块同步构建)~~
 + 配置文件整理 [_config.\[theme\].yml](https://hexo.io/zh-cn/docs/configuration#%E4%BD%BF%E7%94%A8%E4%BB%A3%E6%9B%BF%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
++ 将导入文件代码发布的到 hexo 插件商店中
 
 ## 想开的博客
 
