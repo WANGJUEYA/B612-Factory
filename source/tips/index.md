@@ -96,6 +96,7 @@ cpolar http 80
 # 新闻
 
 [联合早报](https://www.zaobao.com/)
+[中国新闻网](https://www.chinanews.com/)
 [国务院部门服务窗口](https://gjzwfw.www.gov.cn/col/col485/index.html)
 [中国人民共和国工业和信息化部](https://www.miit.gov.cn/)
 
