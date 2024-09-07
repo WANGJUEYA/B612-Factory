@@ -93,6 +93,10 @@ cpolar http 80
 ```
 + cpolar http 80
 
+# 新闻
+
+[联合早报](https://www.zaobao.com/)
+
 # 其他
 
 ## 浏览器插件
