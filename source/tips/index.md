@@ -118,6 +118,15 @@ https://github.com/xifangczy/cat-catch/releases
 
 + [报考指南](https://www.ruankao.org.cn/platform)
 
+## 职称
+
++ [北京市职称申报](https://fuwu.rsj.beijing.gov.cn/pingshen/main#)
+
+ps: 有通知以考代评，但是具体证书发放还需要联系官方
+
++ [北京市人力资源和社会保障局关于调整北京市部分专业技术人员职业资格和职称对应关系的通知](https://www.beijing.gov.cn/zhengce/zczt/zcwjhb/zczdgg/zhzdzc/202311/t20231116_3302868.html)
++ [北京市人力资源和社会保障局关于启用北京市电子职称证书的通知](https://www.beijing.gov.cn/zhengce/zczt/zcwjhb/zczdgg/zhzdzc/202102/t20210205_2278132.html)
+
 ## 公务员考试
 
 + [官方门户](http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html)
