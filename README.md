@@ -76,7 +76,7 @@ git submodule add git@github.com:WANGJUEYA/ideology.git ./source/ideology
 
 ### 像素风开放世界游戏
 
-1. chatGLM生成每个人物性格及天赋
+1. DeepSeek生成每个人物性格及天赋
 2. 世界规则为通用 Prompting
 3. 物品生成和转移规则 > 魔法世界加随机性
 4. 世界支持人物之间交互
