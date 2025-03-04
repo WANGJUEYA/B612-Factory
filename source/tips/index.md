@@ -126,6 +126,7 @@ ps: 有通知以考代评，但是具体证书发放还需要联系官方
 
 + [北京市人力资源和社会保障局关于调整北京市部分专业技术人员职业资格和职称对应关系的通知](https://www.beijing.gov.cn/zhengce/zczt/zcwjhb/zczdgg/zhzdzc/202311/t20231116_3302868.html)
 + [北京市人力资源和社会保障局关于启用北京市电子职称证书的通知](https://www.beijing.gov.cn/zhengce/zczt/zcwjhb/zczdgg/zhzdzc/202102/t20210205_2278132.html)
++ [北京市人力资源和社会保障局关于启用北京市电子职称证书的通知](https://banshi.beijing.gov.cn/tzgg/202102/t20210208_426813.html)
 
 ## 公务员考试
 
