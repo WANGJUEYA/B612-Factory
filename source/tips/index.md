@@ -145,3 +145,8 @@ ps: 有通知以考代评，但是具体证书发放还需要联系官方
 + [影视剧](https://sou.s.sou.soushuju.cn/)
 + [学习资料](http://wan.xue.wanxuege.shop/)
 + [小说](https://wanyueshuwu.com/)
+
+## 系统重装
+
++ [WePE](https://www.wepe.com.cn/download.html)
++ [AI工具箱](https://ai-bot.cn/?utm_source=wepe)
