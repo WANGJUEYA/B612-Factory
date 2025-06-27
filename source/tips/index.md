@@ -151,3 +151,9 @@ ps: 有通知以考代评，但是具体证书发放还需要联系官方
 + [WePE](https://www.wepe.com.cn/download.html)
 + [AI工具箱](https://ai-bot.cn/?utm_source=wepe)
 + [系统版本下载](https://msdn.itellyou.cn/)
+
+## 魔法上网
+
+https://clashios.com/clash-download/
+
+https://sakura-cat-cdn2.com/dashboard
