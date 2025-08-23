@@ -128,6 +128,15 @@ ps: 有通知以考代评，但是具体证书发放还需要联系官方
 + [北京市人力资源和社会保障局关于启用北京市电子职称证书的通知](https://www.beijing.gov.cn/zhengce/zczt/zcwjhb/zczdgg/zhzdzc/202102/t20210205_2278132.html)
 + [北京市人力资源和社会保障局关于启用北京市电子职称证书的通知](https://banshi.beijing.gov.cn/tzgg/202102/t20210208_426813.html)
 
+## 核心期刊
+
++ [中国计算机学会](https://www.ccf.org.cn/)
++ [软件学报](https://www.jos.org.cn/jos/home)
++ [计算机应用文摘](http://jsjyywz.ijournals.cn/)
++ [信息与电脑](http://www.xinxidiannao.com/)
++ [电子技术与软件工程](https://es.ejournal.org.cn/homeNav)
++ [计算机科学](https://www.jsjkx.com/CN/1002-137X/home.shtml)
+
 ## 公务员考试
 
 + [官方门户](http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html)
