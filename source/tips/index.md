@@ -149,6 +149,12 @@ ps: 有通知以考代评，但是具体证书发放还需要联系官方
 
 + [全国高校学科评估结果](https://www.cdgdc.edu.cn/dslxkpgjggb/index.htm)
 
+## 国标
+
++ [国家标准化委员会](https://www.sac.gov.cn/)
++ [国家标准全文公开系统](https://openstd.samr.gov.cn/bzgk/gb/)
++ [国家标准网](http://bzxz.net/gb/)
+
 ## 资源
 
 + [影视剧](https://sou.s.sou.soushuju.cn/)
