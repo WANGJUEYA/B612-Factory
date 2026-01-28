@@ -84,6 +84,11 @@ tags:
 
 + [syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
+#### 提交记录查询
+```shell
+git log --author="wangjueya" --since="2025-01-01" --until="today"
+```
+
 ### 内网穿透工具
 
 + [cpolar](https://dashboard.cpolar.com/get-started)
