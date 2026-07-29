@@ -10,6 +10,7 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
+
       - name: git config
         env:
           USER_NAME: 'wangjueya_ci'
@@ -18,35 +19,51 @@ jobs:
           git config --global user.name "$USER_NAME"
           git config --global user.email "$USER_EMAIL"
           git config --global core.quotepath false
-      - uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-      - name: Git commit
+
+      - uses: actions/checkout@v4   # 升级到 v4
+
+      - name: Git submodule update & commit
         run: |
           git submodule update --init --recursive
           git submodule update --remote
-          echo "构建时提交一份最新的代码"
-          git add *
-          git commit -m ":construction_worker: [skip ci] Auto Update" | if [[ $? == 0 ]]; then
-          git push origin master
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "检测到变更，准备提交..."
+            git add *
+            git commit -m ":construction_worker: [skip ci] Auto Update"
+            git push origin master
+          else
+            echo "无变更，跳过提交"
           fi
-      - uses: c-hive/gha-yarn-cache@v1
-      - name: Yarn install
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4   # 升级到 v4
+        with:
+          node-version: 24.x
+
+      # ---------- pnpm 一体化 ----------
+      - name: Setup pnpm and install
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: |
+            - args: [--no-ignore-scripts]   # 允许构建脚本，解决 ERR_PNPM_IGNORED_BUILDS
+          # 同时自动启用缓存（基于 pnpm-lock.yaml 的 hash）
+
+      # ---------- 修复文章时间 ----------
+      - name: Fix post update time
         run: |
           echo "修复自动构建时所有文章更新时间为当前时间问题 | 取git提交时间"
-          cd source/_posts # 子模块更新失败问题
+          cd source/_posts
           git ls-tree -r --name-only HEAD | while read filename; do
-          echo $filename;
-          unixtime=$(git log -1 --format="%at" -- "${filename}");
-          touchtime=$(date -d @$unixtime +'%Y%m%d%H%M.%S');
-          echo "${filename} --- ${touchtime}"
-          touch -t ${touchtime} "${filename}";
+            echo $filename;
+            unixtime=$(git log -1 --format="%at" -- "${filename}");
+            touchtime=$(date -d @$unixtime +'%Y%m%d%H%M.%S');
+            echo "${filename} --- ${touchtime}"
+            touch -t ${touchtime} "${filename}";
           done
           cd ../../
-          yarn install
+
       - name: Hexo deploy
         run: |
-          yarn run clean
-          yarn run deploy
+          pnpm run clean
+          pnpm run deploy
