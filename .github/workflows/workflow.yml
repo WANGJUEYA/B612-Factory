@@ -42,12 +42,11 @@ jobs:
 
       # ---------- pnpm 一体化 ----------
       - name: Setup pnpm and install
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6   # 从 v4 升级到 v6
         with:
           version: latest
           run_install: |
-            - args: [--no-ignore-scripts]   # 允许构建脚本，解决 ERR_PNPM_IGNORED_BUILDS
-          # 同时自动启用缓存（基于 pnpm-lock.yaml 的 hash）
+            - args: [--no-ignore-scripts]
 
       # ---------- 修复文章时间 ----------
       - name: Fix post update time
